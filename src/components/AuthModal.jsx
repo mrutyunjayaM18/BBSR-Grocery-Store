@@ -1,0 +1,1 @@
+/* AuthModal code will be here (already provided earlier) */

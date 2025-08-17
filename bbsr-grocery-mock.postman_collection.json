@@ -1,0 +1,30 @@
+{
+  "info": {
+    "name": "BBSR Grocery - Mock API",
+    "_postman_id": "mock-collection-123",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Get Products (Mock)",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": "{{mock_url}}/products"
+      }
+    },
+    {
+      "name": "Place Order (Mock)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer {{cognito_token}}"
+          }
+        ],
+        "url": "{{mock_url}}/orders"
+      }
+    }
+  ]
+}

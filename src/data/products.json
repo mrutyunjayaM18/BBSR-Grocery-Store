@@ -1,0 +1,5 @@
+[
+  { "id": 1, "name": "Apples", "price": 120, "unit": "kg" },
+  { "id": 2, "name": "Bananas", "price": 60, "unit": "dozen" },
+  { "id": 3, "name": "Rice", "price": 45, "unit": "kg" }
+]
